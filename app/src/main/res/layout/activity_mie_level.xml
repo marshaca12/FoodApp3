@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/app_title_mie_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Mie Anda"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+
+    <Button
+        android:id="@+id/mie1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_title_mie_level"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:backgroundTint="#F3E3E3"
+        android:text="Mie Carbonara"
+        android:textColorLink="#DEBDBD"
+        app:rippleColor="#EDD9D9"
+        app:strokeColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/mie2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mie1_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Mie Spicy Chicken"
+        android:textColorLink="#D5BDBD" />
+
+    <Button
+        android:id="@+id/mie3_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mie Spicy Buldak"
+        android:layout_below="@id/mie2_button"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/mie4_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mie Curry Beef"
+        android:layout_below="@id/mie3_button"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/mie5_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mie Niku"
+        android:layout_below="@id/mie4_button"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali1"
+        android:layout_below="@id/mie5_button"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

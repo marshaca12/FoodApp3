@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/app_title_mie_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Minuman"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/drink1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es Kelapa"
+        android:layout_below="@id/app_title_mie_level"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/drink2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es Doger"
+        android:layout_below="@id/drink1_button"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/drink3_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es Campur"
+        android:layout_below="@id/drink2_button"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/drink4_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ocha Drink"
+        android:layout_below="@id/drink3_button"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/drink5_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lemon Tea"
+        android:layout_below="@id/drink4_button"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

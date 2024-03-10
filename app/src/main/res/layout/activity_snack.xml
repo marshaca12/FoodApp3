@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/app_title_mie_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Snack"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/snack1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nugget"
+        android:layout_below="@id/app_title_mie_level"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/snack2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dimsum"
+        android:layout_below="@id/snack1_button"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/snack3_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udang Keju"
+        android:layout_below="@id/snack2_button"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/snack4_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lumpia Udang"
+        android:layout_below="@id/snack3_button"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/snack5_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pangsit Goreng"
+        android:layout_below="@id/snack4_button"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
